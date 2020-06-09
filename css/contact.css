@@ -1,0 +1,124 @@
+
+.contact-heading {
+	text-align: center;
+}
+
+.contact-body{
+	width: 90%;
+	/*height: 140vh;*/
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/*grid-template-rows: repeat(2, minmax(50vh, 70vh));*/
+	grid-gap: 20px;
+
+}
+
+.contact-body div {
+	padding: 30px;
+	text-align: left;
+}
+
+.contact-form {
+	grid-column: 1/3;
+	grid-row: 1/3;
+}
+.contact-review{
+	grid-row: 1/3;
+}
+
+.form-section {
+	background: white;
+	height: 120vh;
+	/*font-size: 1.15em;*/
+}
+
+.contact-inputs {
+	width: 90%;
+	height: 30px;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid rgba(192, 192, 192, 0.4);
+	border-radius: 10px; 
+	background-color: rgba(192, 192, 192, 0.4);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+	outline: none;
+}
+
+form select {
+	width: 50%;
+	height: 40px;
+	padding: 5px;
+	margin: 5px;
+	outline: none;
+	border: 2px solid rgba(192, 192, 192, 0.4);
+	border-radius: 10px;
+	background-color:  rgba(192, 192, 192, 0.4) ;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20); 
+}
+
+form textarea {
+	width: 90%;
+	height: 250px;
+	outline: none;
+	padding: 5px;
+	margin: 5px;
+	outline: none;
+	border: 2px solid rgba(192, 192, 192, 0.4);
+	background-color:  rgba(192, 192, 192, 0.3);
+}
+
+form button {
+	box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+
+  background-color: #ff9900;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  color: white;
+
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-review{
+	background-color: #ff9900;
+}
+
+.radio-input {
+	margin: 6px;
+	outline: none;
+}
+
+.review-section {
+	width: 70%;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, minmax(200px, auto));
+	grid-gap: 40px;
+}
+
+.review-box {
+	border: 2px solid rgba(192, 192, 192, 0.4);
+	background-color:  rgba(192, 192, 192, 0.3);
+	padding: 30px; 
+}
+
+.review-box h3 {
+	border: 2px solid rgba(192, 192, 192, 0.4);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+	padding: 10px;
+}
+
+.review-box p {
+	border: 2px solid rgba(192, 192, 192, 0.4);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+	padding: 15px;
+}

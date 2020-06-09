@@ -1,0 +1,41 @@
+.search input {
+	width: 95%;
+	height: 20px;
+	border-radius: 25px;
+	border: none;
+	padding: 15px;
+	background: #ff9900;
+
+	font-size: 1em;
+	font-style: italic;
+}
+
+.search{
+	margin: 15px;
+}
+.search button {
+	background: #0074D9;
+	color: #f2f2f2;
+	padding: 10px 10px;
+	margin: 8px;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	float: right;
+}
+
+.gallery {
+	margin: 10px 100px;
+}
+
+.gallery img {
+	padding: 15px;
+	width: 250px;
+	height: 300px;
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.05);
+}
